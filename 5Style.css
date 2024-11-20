@@ -1,0 +1,123 @@
+*{
+    text-decoration:none;
+    
+}
+
+.container{
+    display:flex;
+    justify-content:space-around;
+    padding:150px;
+    text-decoration:none;
+    align-items:center;
+}
+
+body{
+    text-align:center;
+    justify-content:center;
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    background:linear-gradient(to right, #ffdb9d, #1E90FF);
+   
+}
+
+h1{
+    color: Orange;
+    font-size: 130px;
+    margin:10px;
+    font-family:Arial, sans-serif;
+
+}
+
+img{
+    display:block;
+    height:250px;
+    width:100%;
+    max-width:100%;
+    flex-direction:row;
+    border-radius:10%;
+    object-fit:cover;
+    
+    
+}
+
+p{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    color:black;
+
+}
+
+#insta p{
+    color:#FF8C00
+}
+
+#tel p{
+    color:#FF8C00
+}
+
+#zap p{
+    color:	#191970
+}
+
+#email p{
+    color:	#191970
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        justify-content: center;
+
+    }
+    img{
+        justify-content: space-evenly;
+        margin:25px;
+        padding:18px;
+        display:block;
+        height:50px;
+        width:50px;
+        flex-direction:row;
+        border-radius:10px;
+        
+    }
+    h1{
+        font-size:50px
+    }
+    p{
+        justify-content: space-evenly;
+        margin:0px;
+        font-size:11px;
+        text-align:center;
+    }
+   
+
+
+}
+
+
+html::-webkit-scrollbar{
+    width: 1rem;
+
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

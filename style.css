@@ -1,0 +1,98 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+ 
+
+    * {
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    nav {
+        top: 0;
+        left: 10;
+        width: 100%;
+        height:70px;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        
+    }
+        
+   
+    ul li {
+        list-style: none;
+        display: inline-block;
+        float: left;
+        line-height: 20px;
+       
+    
+    
+    }
+    
+    ul li a {
+        display: block;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'poppins', sans-serif;
+        color: #1e1e1e;
+        padding: 0 50px;
+    
+    }
+    
+    ul li a:hover {
+        color: rgb(144, 217, 230);
+    }
+    #logo{
+        height:50px;
+    }
+    #FA:hover{
+        color:yellow;
+    }
+
+   body {
+    background-image: url(Imagens/pic-4.png) ;
+    background-image:url(Imagens/pic-5.png);
+    background-image:url(Imagens/pic-6.png);
+    background-image:url(Imagens/pic-7.png);
+    background-image: url(Imagens/pic-6.png) ;
+
+    }
+
+    html::-webkit-scrollbar{
+        width: 1rem;
+    
+    }
+
+    html::-webkit-scrollbar-track{
+        background: transparent;
+    }
+
+    html::-webkit-scrollbar-thumb{
+        background-color: goldenrod;
+        border-radius: 1rem;
+    }
+
+   .background{
+    background-image:url(Imagens/pic-10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    
+    
+
+
+    }

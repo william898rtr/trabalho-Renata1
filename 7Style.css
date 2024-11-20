@@ -1,0 +1,80 @@
+body{
+    background-image:url(Imagens/back3.jpg);
+    background-size:cover;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    margin-top:0px;
+    font-size:35px;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    color:orange;
+}
+
+img{
+    height:400px;
+    width:270px;
+}
+
+.locais{
+    font-size:70px;
+    display:flex;
+    margin-top:30px;
+    justify-content: space-around;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    color:orange;
+}
+
+.imgloc{
+    justify-content: space-around;
+    display:flex;
+    margin-top: 100px;
+    
+}
+
+.imgloc img{
+    height:130px;
+    width:130px;
+    border-radius:300px;
+    border: 5px solid orange;
+
+}
+
+@media screen and (max-width: 480px){
+    body{
+        background-attachment: fixed;
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    header{
+        font-size:15px;
+        margin-top:20px;
+        margin-left:10px;
+    }
+    header img{
+        height:200px;
+    }
+    .imgloc img{
+        height:70px;
+        width:70px;
+        margin-top:70px;
+    }
+    .locais{
+        font-size:25px;
+    }
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 1rem;
+}
+    
